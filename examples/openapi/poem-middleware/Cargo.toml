@@ -1,5 +1,5 @@
 [package]
-name = "example-openapi-middleware"
+name = "example-openapi-poem-middleware"
 version = "0.1.0"
 edition = "2018"
 publish = false
@@ -8,3 +8,4 @@ publish = false
 poem = { path = "../../../poem" }
 poem-openapi = { path = "../../../poem-openapi" }
 tokio = { version = "1.12.0", features = ["macros", "rt-multi-thread"] }
+tracing-subscriber = "0.2.24"
